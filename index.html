@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080d12" />
+  <meta name="description" content="Isa Ali - ICT student, systems builder, and Operations & Systems Coordinator. Exploring software development, e-commerce, and automation." />
+  <meta property="og:title" content="Isa Ali | Developer & Systems Portfolio" />
+  <meta property="og:description" content="Building practical software and systems for the real world." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Isa Ali | Developer & Systems Portfolio</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="ambient ambient-green" aria-hidden="true"></div>
+  <div class="ambient ambient-purple" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Isa Ali - back to home"><span class="brand-symbol">&lt;/&gt;</span><span class="brand-text">isa<span class="accent">.</span>ali</span><span class="brand-tag">/ dev_portfolio</span></a>
+      <nav class="desktop-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about"><span>01.</span> about</a>
+        <a href="#projects"><span>02.</span> projects</a>
+        <a href="#skills"><span>03.</span> stack</a>
+        <a href="#experience"><span>04.</span> experience</a>
+        <a href="#contact"><span>05.</span> contact</a>
+      </nav>
+      <div class="header-controls">
+        <button class="rgb-toggle" id="rgb-toggle" type="button" aria-pressed="true" aria-label="Turn RGB accent colors off" title="Toggle RGB gaming accent colors">
+          <span class="rgb-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>RGB</span>
+          <span class="rgb-power" aria-hidden="true"></span>
+        </button>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-gridlines" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <div class="hero-status"><span class="live-pulse"></span><span>BAHRAIN / SYSTEMS BUILDER / ICT STUDENT</span></div>
+          <p class="micro-path"><span class="path-dollar">$</span> ~/isa-ali/portfolio <span class="path-chevron">&gt;</span> <span class="path-function">whoami</span><span class="blink-caret">_</span></p>
+          <h1>CODE FOR<br />THE <span class="hero-green">REAL</span><br /><span class="outline-word">WORLD.</span></h1>
+          <p class="hero-copy">I'm <strong>Isa Ali</strong> - an ICT student at Bahrain Polytechnic and Operations &amp; Systems Coordinator at Albayan Perfumes. I turn everyday business challenges into smarter digital workflows.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-green"><span class="btn-icon">&lt;/&gt;</span> EXPLORE PROJECTS <span class="arrow">&rarr;</span></a>
+            <a href="resume.pdf" download class="btn btn-ghost"><span class="btn-icon">&darr;</span> DOWNLOAD CV</a>
+          </div>
+          <div class="hero-side-note"><span class="tiny-line"></span> SOFTWARE DEVELOPMENT <span class="tiny-sep">/</span> E-COMMERCE <span class="tiny-sep">/</span> AUTOMATION</div>
+        </div>
+        <div class="hero-right reveal">
+          <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="terminal-window">
+            <div class="terminal-topbar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span class="terminal-path">isa@portfolio: ~</span>
+              <span class="terminal-top-extra">[ zsh ]</span>
+            </div>
+            <div class="terminal-tabs" role="tablist" aria-label="Terminal views">
+              <button type="button" class="terminal-tab is-selected" role="tab" aria-selected="true" aria-controls="tab-profile" id="profile-tab" data-terminal-tab="profile">profile.json</button>
+              <button type="button" class="terminal-tab" role="tab" aria-selected="false" aria-controls="tab-focus" id="focus-tab" data-terminal-tab="focus" tabindex="-1">focus.log</button>
+              <span class="tab-spacer"></span><span class="terminal-indicator"><i></i> SYSTEM READY</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-pane" id="tab-profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p class="terminal-command"><span class="prompt">isa@local</span><span class="terminal-muted">:~$</span> cat profile.json</p>
+                <div class="code-lines"><div><span class="punct">{</span></div>
+                  <div class="indent"><span class="code-key">"name"</span><span class="punct">: </span><span class="code-string">"Isa Ali"</span><span class="punct">,</span></div>
+                  <div class="indent"><span class="code-key">"role"</span><span class="punct">: </span><span class="code-string">"Systems Coordinator"</span><span class="punct">,</span></div>
+                  <div class="indent"><span class="code-key">"education"</span><span class="punct">: </span><span class="code-string">"Bahrain Polytechnic"</span><span class="punct">,</span></div>
+                  <div class="indent"><span class="code-key">"interests"</span><span class="punct">: [</span></div>
+                  <div class="indent-two"><span class="code-string">"Software Development"</span><span class="punct">,</span></div>
+                  <div class="indent-two"><span class="code-string">"Automation"</span><span class="punct">,</span></div>
+                  <div class="indent-two"><span class="code-string">"E-commerce Systems"</span></div>
+                  <div class="indent"><span class="punct">],</span></div>
+                  <div class="indent"><span class="code-key">"approach"</span><span class="punct">: </span><span class="code-string">"Build what matters"</span></div>
+                  <div><span class="punct">}</span></div></div>
+                <p class="terminal-next"><span class="prompt">isa@local</span><span class="terminal-muted">:~$</span> <span class="terminal-cursor"></span></p>
+              </div>
+              <div class="terminal-pane" id="tab-focus" role="tabpanel" aria-labelledby="focus-tab" hidden>
+                <p class="terminal-command"><span class="prompt">isa@local</span><span class="terminal-muted">:~$</span> tail -f focus.log</p>
+                <div class="log-lines">
+                  <p><span class="log-ok">[OK]</span> Shopify operations &amp; localization</p>
+                  <p><span class="log-ok">[OK]</span> Workflow automation &amp; reporting</p>
+                  <p><span class="log-progress">[BUILD]</span> BHO delivery portal</p>
+                  <p><span class="log-info">[LEARN]</span> React / Supabase / system design</p>
+                  <div class="log-divider"></div>
+                  <p class="log-comment">// turning operational problems</p>
+                  <p class="log-comment">// into practical software solutions</p>
+                </div>
+                <p class="terminal-next"><span class="prompt">isa@local</span><span class="terminal-muted">:~$</span> <span class="terminal-cursor"></span></p>
+              </div>
+            </div>
+            <div class="terminal-footer"><span><i class="footer-circle"></i> ENVIRONMENT: PORTFOLIO</span><span>UTF-8 &nbsp; / &nbsp; EN</span></div>
+          </div>
+          <div class="floating-badge" aria-hidden="true"><span class="floating-icon">{ }</span><span><strong>BUILD / IMPROVE</strong><small>always iterating_</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span class="hero-coordinate">26.2 N / 50.5 E &nbsp; // &nbsp; BH</span></div>
+    </section>
+
+    <div class="signal-bar" aria-label="Professional focus areas"><div class="container signal-inner"><span><b>01</b> WEB DEVELOPMENT</span><i></i><span><b>02</b> SYSTEM INTEGRATION</span><i></i><span><b>03</b> E-COMMERCE OPERATIONS</span><i></i><span><b>04</b> PROCESS AUTOMATION</span></div></div>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="section-intro reveal"><span class="section-kicker"><span class="section-dash">//</span> 01 / ABOUT_ME</span><h2>Not just code.<br /><span class="text-green">Better systems.</span></h2><p class="section-aside">Understanding both the technology and the people using it.</p></div>
+        <div class="about-content reveal"><div class="about-mark" aria-hidden="true">&lt;about&gt;</div><p>My background sits between <strong>technology and real operations</strong>. I study ICT and programming at Bahrain Polytechnic while working on e-commerce processes, logistics coordination, and systems at Albayan Perfumes.</p><p>I enjoy finding the repetitive or complicated parts of a workflow, understanding why they happen, and building something that makes the process clearer and easier.</p>
+          <div class="about-facts"><div><span>LOCATION</span><strong>Bahrain</strong></div><div><span>CURRENT ROLE</span><strong>Operations &amp; Systems</strong></div><div><span>MAIN INTEREST</span><strong>Building useful software</strong></div></div>
+          <div class="about-mark about-mark-end" aria-hidden="true">&lt;/about&gt;</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects"><div class="container">
+      <div class="section-header reveal"><div><span class="section-kicker"><span class="section-dash">//</span> 02 / PROJECTS_DIRECTORY</span><h2>Selected <span class="text-green">builds.</span></h2></div><p>Work where development meets real operational needs. All visuals are conceptual, with no private company data.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-feature reveal">
+          <div class="project-topline"><span class="project-index">/projects/01</span><span class="project-state state-build"><i></i> IN DEVELOPMENT</span></div>
+          <div class="featured-inner"><div class="featured-info"><span class="project-category">FEATURED PROJECT // WEB APP</span><h3><span>BHO</span></h3><div class="project-tagline">Delivery Management Portal</div><p>A role-based web app designed to bring delivery assignments, order status updates, and settlement reviews into one streamlined workflow.</p><div class="chip-list"><span>React</span><span>Supabase</span><span>Role-based access</span><span>System design</span></div><button class="project-more" type="button" data-project="bho">VIEW CASE STUDY <span aria-hidden="true">&nearr;</span></button></div>
+          <div class="feature-visual" aria-label="Illustrative delivery workflow diagram"><div class="visual-top"><span class="path-light">&gt;_</span> delivery_flow.tsx <span class="visual-preview">CONCEPT UI</span></div><div class="visual-workflow"><div class="flow-item"><span class="flow-no">01</span><b>Order added</b><small>new</small></div><span class="join-arrow">&rarr;</span><div class="flow-item"><span class="flow-no">02</span><b>Assigned</b><small>agent</small></div><span class="join-arrow">&rarr;</span><div class="flow-item flow-active"><span class="flow-no">03</span><b>Delivered</b><small>updated</small></div></div><div class="visual-code"><span><i></i> status: workflow_ready</span><span><i></i> role_access: enabled</span><span><i></i> private_data: excluded</span></div><div class="visual-bottom"><span><i></i> SYSTEM FLOW</span><span>01 / 03</span></div></div></div>
+        </article>
+        <article class="project-card mini-project reveal"><div class="project-topline"><span class="project-index">/projects/02</span><span class="mini-mark mark-purple">&lt;/&gt;</span></div><span class="project-category">E-COMMERCE / SYSTEMS</span><h3>Shopify Regional Operations</h3><p>Product management, market localization, pricing workflows, and storefront improvements across regional operations.</p><div class="small-ui regional-ui" aria-hidden="true"><div class="ui-heading">commerce.config <span>● ● ●</span></div><div class="region-row"><span>STORE DATA</span><b>SYNCED</b></div><div class="region-row"><span>LOCALIZATION</span><b>AR / EN</b></div><div class="region-row"><span>MARKET SETTINGS</span><b>CONFIGURED</b></div></div><div class="chip-list"><span>Shopify</span><span>Localization</span><span>Operations</span></div><button class="project-more" type="button" data-project="shopify">VIEW DETAILS <span aria-hidden="true">&nearr;</span></button></article>
+        <article class="project-card mini-project reveal"><div class="project-topline"><span class="project-index">/projects/03</span><span class="mini-mark mark-cyan">&lt;*&gt;</span></div><span class="project-category">AUTOMATION / INTEGRATIONS</span><h3>Back-in-Stock Notifications</h3><p>A bilingual request workflow connecting unavailable Shopify products to WhatsApp and email stock alerts.</p><div class="small-ui notification-ui" aria-hidden="true"><span>OUT OF STOCK</span><div class="notify-steps"><b>Request</b><em>&rarr;</em><b>Restock</b><em>&rarr;</em><b class="notify-done">Notify</b></div><span class="notification-output">CHANNELS: WHATSAPP / EMAIL</span></div><div class="chip-list"><span>JavaScript</span><span>Shopify</span><span>Interakt</span></div><button class="project-more" type="button" data-project="notify">VIEW DETAILS <span aria-hidden="true">&nearr;</span></button></article>
+        <article class="project-card mini-project reveal"><div class="project-topline"><span class="project-index">/projects/04</span><span class="mini-mark mark-green">[ ]</span></div><span class="project-category">DATA / OPERATIONAL TOOLS</span><h3>Reporting &amp; Inventory Tools</h3><p>Shipment reports, receiving checks, and inventory tracking tools designed to turn operational data into clear decisions.</p><div class="small-ui report-ui" aria-hidden="true"><div class="report-label">report_overview <span>EXAMPLE DATA</span></div><div class="chart-grid"><div style="--bar:39%"></div><div style="--bar:58%"></div><div style="--bar:45%"></div><div style="--bar:81%"></div><div style="--bar:70%"></div><div style="--bar:93%"></div><div style="--bar:75%"></div></div></div><div class="chip-list"><span>Google Sheets</span><span>Excel</span><span>Reporting</span></div><button class="project-more" type="button" data-project="reporting">VIEW DETAILS <span aria-hidden="true">&nearr;</span></button></article>
+      </div>
+      <a class="github-nudge reveal" href="https://github.com/1sa2li" target="_blank" rel="noopener noreferrer"><span>CHECK OUT MY GITHUB PROFILE</span><span>&rarr;</span></a>
+    </div></section>
+
+    <section class="section skills-section" id="skills"><div class="container">
+      <div class="section-header reveal"><div><span class="section-kicker"><span class="section-dash">//</span> 03 / SKILLS_MATRIX</span><h2>My <span class="gradient-text">toolkit.</span></h2></div><p>Software skills and operational platforms that I use to solve problems, build interfaces, and improve processes.</p></div>
+      <div class="skill-grid">
+        <div class="skill-card reveal"><div class="skill-top"><span class="skill-code">01 / development</span><span class="skill-symbol">&lt;/&gt;</span></div><h3>Code &amp; Web</h3><div class="skill-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Git / GitHub</span></div></div>
+        <div class="skill-card reveal"><div class="skill-top"><span class="skill-code">02 / data-systems</span><span class="skill-symbol">{ }</span></div><h3>Data &amp; Backend</h3><div class="skill-pills"><span>Supabase</span><span>SQL</span><span>Firebase</span><span>Systems integration</span><span>Data reporting</span></div></div>
+        <div class="skill-card reveal"><div class="skill-top"><span class="skill-code">03 / platforms</span><span class="skill-symbol">#</span></div><h3>Business Platforms</h3><div class="skill-pills"><span>Shopify</span><span>Interakt</span><span>POS systems</span><span>Google Sheets</span><span>Excel</span></div></div>
+        <div class="skill-card reveal"><div class="skill-top"><span class="skill-code">04 / operations</span><span class="skill-symbol">&gt;_</span></div><h3>Operations</h3><div class="skill-pills"><span>Workflow automation</span><span>Logistics</span><span>Process improvement</span><span>Asana</span><span>Team coordination</span></div></div>
+      </div>
+    </div></section>
+
+    <section class="section experience-section" id="experience"><div class="container">
+      <div class="section-header reveal"><div><span class="section-kicker"><span class="section-dash">//</span> 04 / EXPERIENCE.LOG</span><h2>Where I <span class="text-green">leveled up.</span></h2></div><p>Building technical knowledge alongside hands-on experience in real business environments.</p></div>
+      <div class="experience-list">
+        <article class="experience-row reveal"><div class="experience-when">2026 <span>&rarr;</span> NOW</div><div class="experience-line"><i></i></div><div class="experience-main"><span class="experience-company">ALBAYAN PERFUMES</span><h3>Operations &amp; Systems Coordinator</h3><p>Work across Shopify administration, process automation, system improvements, reporting, and logistics coordination.</p><div class="experience-tags"><span>E-COMMERCE</span><span>SYSTEMS</span><span>WORKFLOWS</span></div></div></article>
+        <article class="experience-row reveal"><div class="experience-when">2025 <span>&rarr;</span> 2026</div><div class="experience-line"><i></i></div><div class="experience-main"><span class="experience-company">ALBAYAN PERFUMES</span><h3>Logistics Employee</h3><p>Supported order tracking, shipments, inventory movements, store records, and day-to-day operations.</p><div class="experience-tags"><span>LOGISTICS</span><span>INVENTORY</span></div></div></article>
+        <article class="experience-row reveal"><div class="experience-when">2024 <span>&rarr;</span> 2025</div><div class="experience-line"><i></i></div><div class="experience-main"><span class="experience-company">AYDER RESTAURANT</span><h3>Cashier / POS Operator</h3><p>Handled POS transactions, payments, customer requests, and retail service operations.</p><div class="experience-tags"><span>POS</span><span>CUSTOMER SERVICE</span></div></div></article>
+      </div>
+    </div></section>
+
+    <section class="section education-section" id="education"><div class="container education-grid reveal"><div><span class="section-kicker"><span class="section-dash">//</span> 05 / EDUCATION</span><h2>Learning is part<br />of the <span class="text-green">build.</span></h2></div><div class="education-card"><div class="education-cap"><span>ACADEMIC PROFILE</span><span class="edu-icon">//</span></div><span class="education-date">2022 - PRESENT</span><h3>Bahrain Polytechnic</h3><p>Bachelor's Degree in Progress<br />Information &amp; Communication Technology / Programming</p><div class="edu-gpa"><span>GPA</span><strong>3.19</strong></div></div></div></section>
+
+    <section class="section contact-section" id="contact"><div class="container">
+      <div class="contact-panel reveal"><div class="contact-sheen" aria-hidden="true"></div><span class="section-kicker"><span class="section-dash">//</span> 06 / CONTACT.SH</span><p class="contact-command"><span>$</span> ./start-conversation.sh</p><h2>Let's build<br /><span class="text-green">something useful.</span></h2><p class="contact-copy">Open to conversations about software, systems, and improving the way businesses work.</p><div class="contact-buttons"><a href="mailto:isahussain2040@gmail.com" class="btn btn-green">EMAIL ME <span class="arrow">&rarr;</span></a><a href="https://github.com/1sa2li" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GITHUB <span class="arrow">&nearr;</span></a><a href="https://www.linkedin.com/in/isa-ali-a72969291" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">LINKEDIN <span class="arrow">&nearr;</span></a></div></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a href="#home" class="footer-brand">&lt;/&gt; ISA ALI<span>.</span></a><span>DESIGNED FOR THE REAL WORLD &nbsp; // &nbsp; BUILT WITH HTML, CSS &amp; JS</span><a href="#home" class="footer-top">BACK TO TOP &uarr;</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><div class="dialog-top"><span class="section-kicker"><span class="section-dash">//</span> PROJECT_CASE_STUDY</span><button type="button" class="dialog-close" aria-label="Close project details">&times;</button></div><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>WHAT I WORK ON</h3><ul id="dialog-points"></ul><p class="dialog-note">Project details are shared at a high level. Private business information, customer data, and API credentials are not included.</p></div></dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
