@@ -92,6 +92,16 @@ if ('IntersectionObserver' in window) {
 }
 
 const projectDetails = {
+  shortage: {
+    title: 'Shortage Request App',
+    description: 'An internal perfume shortage request tool built to replace manual request sheets with a searchable, structured workflow for store teams.',
+    focus: [
+      'Staff search the perfume catalog, select an available product size, enter the required quantity, and submit a shortage request.',
+      'Requests are captured in an organized shared list to make missing items easier to review and follow up.',
+      'Teams can manage active requests, remove resolved entries, and prepare consolidated PDF reports for fulfillment.',
+      'The responsive interface uses JavaScript, Google Apps Script, and Google Sheets, with product and variant checks to help reduce mistakes.'
+    ]
+  },
   bho: {
     title: 'BHO - Delivery Management Portal',
     description: 'An in-progress internal delivery management application designed to make deliveries, staff assignments, and settlements easier to track across roles.',
