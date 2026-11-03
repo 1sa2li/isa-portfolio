@@ -92,6 +92,17 @@ if ('IntersectionObserver' in window) {
 }
 
 const projectDetails = {
+  cardAgent: {
+    title: 'Smart Card Automation Agent',
+    description: 'An in-development browser-based tool designed to assemble organized design-card collections from categorized product lists, reducing repetitive manual searching and sorting.',
+    focus: [
+      'Building a responsive interface for categorized lists and card selection.',
+      'Indexing design pages and suggesting close matches for names with spelling differences.',
+      'Flagging missing or ambiguous items for user confirmation rather than guessing.',
+      'Prototyping secure account authorization and a review-first design assembly workflow.',
+      'Planning an installable web app while keeping internal assets and access details private.'
+    ]
+  },
   shortage: {
     title: 'Shortage Request App',
     description: 'An internal perfume shortage request tool built to replace manual request sheets with a searchable, structured workflow for store teams.',
