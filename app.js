@@ -93,14 +93,15 @@ if ('IntersectionObserver' in window) {
 
 const projectDetails = {
   cardAgent: {
-    title: 'Smart Card Automation Agent',
-    description: 'An in-development browser-based tool designed to assemble organized design-card collections from categorized product lists, reducing repetitive manual searching and sorting.',
+    title: 'Perfume Card Agent — Completed Internal Project',
+    description: 'A completed internal workflow application that helps prepare categorized design cards for retail branches, reducing repetitive manual searching while keeping company assets and operational data private.',
     focus: [
-      'Building a responsive interface for categorized lists and card selection.',
-      'Indexing design pages and suggesting close matches for names with spelling differences.',
-      'Flagging missing or ambiguous items for user confirmation rather than guessing.',
-      'Prototyping secure account authorization and a review-first design assembly workflow.',
-      'Planning an installable web app while keeping internal assets and access details private.'
+      'Built and deployed a responsive dark-themed interface for branch-specific card requests.',
+      'Integrated Canva account authorization and design-page indexing for approved users.',
+      'Implemented category-aware matching, including distinct Super card selections, and manual review for ambiguous product names.',
+      'Added reusable name corrections, missing-item handling, and batch generation of organized print-ready design collections.',
+      'Implemented cloud-based branch saving, recovery from interrupted operations, and automatic deployment through GitHub and Cloudflare.',
+      'Kept source designs unchanged and excluded private company records, links, and credentials from this public case study.'
     ]
   },
   shortage: {
