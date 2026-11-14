@@ -104,6 +104,17 @@ const projectDetails = {
       'Kept source designs unchanged and excluded private company records, links, and credentials from this public case study.'
     ]
   },
+  inventoryVerification: {
+    title: 'Inventory Verification Tool — Web App & Browser Extension',
+    description: 'A browser-based reconciliation workflow that compares submitted item lists with data a user can already access in an authorized reporting interface. This is a conceptual public case study; no company records, live system links, or private source code are shared.',
+    focus: [
+      'Built a responsive verification interface using HTML, CSS, and JavaScript.',
+      'Created a browser extension to collect report rows already visible in an authorized user session without requesting passwords.',
+      'Implemented client-side item matching, quantity difference alerts, and guided review when names or identifiers are unclear.',
+      'Added report export and print-friendly summaries, along with checks for incomplete captured data.',
+      'Used GitHub and Cloudflare Pages for versioned deployment while keeping all internal URLs, datasets, and operational information private.'
+    ]
+  },
   shortage: {
     title: 'Shortage Request App',
     description: 'An internal perfume shortage request tool built to replace manual request sheets with a searchable, structured workflow for store teams.',

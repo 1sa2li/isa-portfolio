@@ -1,6 +1,10 @@
-# Isa Ali - Cyber / RGB Portfolio
+# Isa Ali - Full-Stack Developer Portfolio
 
-A custom personal portfolio with a dark coding and gaming-inspired visual design. Neon green is the main color, with optional cyan and purple RGB accents. Everything is built using HTML, CSS and JavaScript. It works without frameworks, API keys, subscriptions, or a build process.
+A personal full-stack developer portfolio with a dark coding and gaming-inspired visual design. Neon green is the main color, with optional cyan and purple RGB accents. Everything is built using HTML, CSS and JavaScript. It works without frameworks, API keys, subscriptions, or a build process.
+
+## Public-safe case studies
+
+The portfolio includes a conceptual overview of the **Inventory Verification Tool**, a browser-based web application and extension for matching items to authorized report data, identifying quantity differences, and producing printable summaries. This case study intentionally omits employer names, store details, production URLs, internal source repositories, product catalog data, private records, and screenshots from actual operations. The workflow diagram is illustrative, not live company data.
 
 ## Preview locally
 
