@@ -236,10 +236,6 @@ body.rgb-off .ambient-purple { opacity: .045; }
 .chart-grid > div:nth-child(5) { background: linear-gradient(to top, #287e89, var(--cyan)); }
 .mini-project .chip-list { margin-top: 20px; margin-bottom: 21px; }
 .mini-project .project-more { margin-top: auto; align-self: flex-start; }
-.github-nudge { display: flex; align-items: center; justify-content: space-between; border: 1px dashed #416d51; background: #102219; margin-top: 22px; padding: 19px 25px; color: #d0e7d5; font: 700 11px var(--mono); letter-spacing: .035em; transition: background .2s, border-color .2s; }
-.github-nudge:hover { background: #173021; border-color: var(--green); }
-.github-nudge span:last-child { color: var(--green); font-size: 23px; line-height: 1; }
-
 /* SKILLS */
 .skills-section { padding-top: 130px; padding-bottom: 128px; }
 .skill-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
