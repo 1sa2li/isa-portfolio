@@ -127,12 +127,12 @@ const projectDetails = {
   },
   bho: {
     title: 'BHO - Delivery Management Portal',
-    description: 'An in-progress internal delivery management application designed to make deliveries, staff assignments, and settlements easier to track across roles.',
+    description: 'A completed internal delivery management portal built to centralize order intake, assignment, delivery tracking, settlement review, and audit history across multiple operational roles.',
     focus: [
-      'Designing the data model, role-based permissions, and workflows for operations teams.',
-      'Developing a web interface with React and Supabase.',
-      'Structuring order assignment, delivery statuses, and settlement review.',
-      'Planning a secure Shopify integration without exposing private records.'
+      'Built role-based dashboards for administration, shipping staff, delivery agents, and accounts with controlled access to operational actions.',
+      'Connected Shopify order intake to Supabase through a secure workflow and added support for manual orders when needed.',
+      'Implemented delivery assignment, scheduled delivery dates, status tracking, notes, order history, bulk actions, and printable order templates.',
+      'Added settlement review, account approval flows, delivery-company auditing, notifications, and a responsive interface deployed on Cloudflare Pages.'
     ]
   },
   shopify: {

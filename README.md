@@ -4,7 +4,9 @@ A personal full-stack developer portfolio with a dark coding and gaming-inspired
 
 ## Public-safe case studies
 
-The portfolio includes a conceptual overview of the **Inventory Verification Tool**, a browser-based web application and extension for matching items to authorized report data, identifying quantity differences, and producing printable summaries. This case study intentionally omits employer names, store details, production URLs, internal source repositories, product catalog data, private records, and screenshots from actual operations. The workflow diagram is illustrative, not live company data.
+The portfolio includes public-safe overviews of completed operational software projects, including **BHO - Delivery Management Portal** and the **Inventory Verification Tool**. BHO is presented as a completed role-based delivery management system covering order intake, assignment, delivery tracking, settlement review, audit history, bulk actions, and printable templates.
+
+The case studies intentionally omit employer-sensitive operational details, production URLs, internal source repositories, customer records, product catalog data, credentials, and screenshots containing private company data. Visual workflow diagrams are illustrative rather than live production records.
 
 ## Preview locally
 
@@ -52,5 +54,5 @@ Start by changing `--green`, then add one new project card, and finally make a n
 
 ## Naming
 
-The delivery management project is presented as **BHO** in the portfolio and resume.
+The delivery management project is presented as **BHO** in the portfolio and resume. BHO is now shown as a completed, production-ready internal system rather than a work in progress.
 Company names under work experience are retained as factual employment history.
